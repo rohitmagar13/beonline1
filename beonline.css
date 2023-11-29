@@ -1,0 +1,138 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+    padding-left: 60px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(13, 1, 1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    border-style: solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+   
+  }
+  
+  .active {
+    background-color: #e4efeb;
+    border-style: solid;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+  }
+  .grad{
+    background-image: url(ab2.jpg);
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0) 20%,
+    rgba(247,245,245) 60%,
+    rgba(251,251,251,1) 100%),url(ab2.jpg);
+    height: 500px;
+  }
+  
+
+  .card1{
+    width: 250px;
+    height: 150px;
+    background-color: #e4efeb;
+    border-color: #e4efeb;
+    border-radius: 5px;
+    margin-left: 600px;
+    margin-top: -245px;
+  }
+  .card2{
+    width: 250px;
+    height: 150px;
+    background-color: #f6f9f4;
+    border-color: #eff5f3;
+    border-radius: 5px;
+    margin-left: 900px;
+    margin-top: -165px;
+  }
+
+  .card3{
+    width: 250px;
+    height: 150px;
+    background-color: #e4efe4;
+    border-color: #e4efe8;
+    border-radius: 5px;
+    margin-left: 1200px;
+    margin-top: -170px;
+  }
+  .card1:hover {
+    background-color: #81fc54;
+     
+  }
+  .card2:hover {
+    background-color: #81fc54;
+     
+  }
+
+  .card3:hover {
+    background-color: #81fc54;
+     
+  }
+ .card4{
+  font-size: 20px;
+  margin-left: 850px;
+  margin-top: -530px;
+ }
+ .card5{
+  width: 400px;
+  height: 200px;
+  margin-top: -450px;
+  background-color: #e4efe8;
+  margin-left: 100px;
+  padding-top: 40px;
+  border-radius: 10px;
+  padding-left: 30px;
+ }
+ .card6{
+  width: 400px;
+  height: 200px;
+  margin-top: -240px;
+  background-color: #e4efe8;
+  margin-left: 600px;
+  padding-top: 40px;
+  padding-left: 30px;
+  border-radius: 10px;
+ }
+ .card7{
+  width: 400px;
+  height: 200px;
+  margin-top: -240px;
+  background-color: #e4efe8;
+  margin-left: 1100px;
+  padding-top: 40px;
+  padding-left: 30px;
+  border-radius: 10px;
+ }
+ .footer
+  
+ {
+  background-color: black;
+ color: #e4efe4;
+ height: 100px;
+ padding-top: 17px;
+ }
+
+
+
+   
+
+   
+   
